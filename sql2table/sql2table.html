@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./sql2table.js"></script>
+  <title>sql2table</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="sql2table.css">
+</head>
+
+<body>
+  <div class="sql-container">
+    <div class="editor-sction">
+      <div class="header">
+        <select id="dbType" class="form-select">
+          <option value="">请选择...</option>
+          <option value="M">Mysql</option>
+          <option value="O">Oracle</option>
+        </select>
+      </div>
+      <div class="body">
+        <textarea class="form-control" placeholder="请填写建表语句"></textarea>
+      </div>
+      <div class="footer">
+        <button class="btn btn-primary">转换</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="flex first"><div>XXXXX</div> <div style="font-size: 14px; color: #666;padding-left: 5px;">(表名)</div></div>
+      <div class="flex second">
+        <div class="flex column">
+          <div class="d1">ID</div>
+          <div class="d2">VARCHAR2(2000)</div>
+        </div>
+        <div class="comment">
+          备注......XXXXXXXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXXXXXXX
+        </div>
+      </div>
+      <div class="flex other">
+        <div class="flex column">
+          <div class="d1">HELLOWORLDXXXXXX</div>
+          <div class="d2">VARCHAR2(2000)</div>
+        </div>
+        <div class="comment">
+          备注......XXXXXXXXXXXXXX
+        </div>
+      </div>
+      <div class="flex last">
+        <div class="flex column">
+          <div class="d1">NAME</div>
+          <div class="d2">VARCHAR2(2000)</div>
+        </div>
+        <div class="comment">
+          备注......XXXXXXXXXXXXXX
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
