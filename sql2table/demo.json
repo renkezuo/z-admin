@@ -1,0 +1,32 @@
+[
+    
+{
+    "tableName":"BID_EXPERT",
+    "tableComment":"专家配置库",
+    "columns":[
+        {
+            "name":"ID",
+            "type":"varchar2(200)",
+            "comment":"主键ID1"
+        },{
+            "name":"name",
+            "type":"varchar2(1000)",
+            "comment":"测试测试测试测试1"
+        }
+    ]
+},{
+
+    "tableName":"BID_EXXPERT_SCORE_RULE",
+    "tableComment":"专家配置评分规则库",
+    "columns":[
+        {
+            "name":"ID",
+            "type":"varchar2(200)",
+            "comment":"主键ID2"
+        },{
+            "name":"name",
+            "type":"varchar2(1000)",
+            "comment":"测试测试测试测试2"
+        }
+    ]
+}]
